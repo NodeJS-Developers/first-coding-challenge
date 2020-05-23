@@ -1,0 +1,18 @@
+{
+  "name": "challenge1",
+  "version": "1.0.0",
+  "description": " Mystery Machine ",
+  "main": "getReward.js",
+  "scripts": {
+    "reward": "node getReward.js"
+  },
+  "keywords": [
+    "coding",
+    "challenge"
+  ],
+  "author": "darkie8",
+  "license": "MIT",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

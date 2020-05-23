@@ -6,7 +6,7 @@ So, There are 6 txt files and all the files with prefix 'encryptedPrimaryKeys' a
 
 Now , final **Primary keys and IV** have certain lengths and all are **String* types :
 ### lengths
-     const [ PrimaryKey1, PrimaryKey2, PrimaryKey3, PrimaryKey4, PrimaryKey5, IV ]   = [ 10, 14, 10, 12, 11, 16 ] 
+     const [ PrimaryKey1_length, PrimaryKey2_length, PrimaryKey3_length, PrimaryKey4_length, PrimaryKey5_length, IV_length ]   = [ 10, 14, 10, 12, 11, 16 ] 
 
 ### finally
 After getting these PrimaryKeys and IV, you need to use them as input to get the winning word. There is a file called getReward.js

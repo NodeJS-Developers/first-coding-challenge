@@ -1,9 +1,11 @@
 {
   "name": "challenge1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": " Mystery Machine ",
   "main": "getReward.js",
   "scripts": {
+    "getKeysnode12down": "node --experimental-worker index.js",
+    "getKeysnode12up": "node index.js",
     "reward": "node getReward.js"
   },
   "keywords": [
